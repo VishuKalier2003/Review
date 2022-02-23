@@ -1,0 +1,309 @@
+body {
+    background: rgb(34, 33, 33);
+    margin: 0;
+    padding: 0;
+    background: url('AI\ wallpapar.jpg');
+    background-size: 100% 300px;
+    background-repeat: no-repeat;
+}
+
+nav {
+    padding-left: 30px;
+    padding-top: 10px;
+    background-color: black;
+}
+
+.list {
+    display: grid;
+    height: 45px;
+    padding-left: 10px;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 5px;
+}
+
+@keyframes animate {
+    0% {
+        background-color: rgb(91, 235, 223);
+    }
+    25% {
+        background-color: rgb(55, 144, 226);
+    }
+    50% {
+        background-color: rgb(47, 91, 211);
+    }
+    75% {
+        background-color: rgb(55, 144, 226);
+    }
+    100% {
+        background-color: rgb(91, 235, 223);
+    }
+}
+
+.list>* {
+    font-size: 12px;
+}
+
+.list li {
+    background-color: black;
+    list-style: none;
+    width: 7%;
+    padding: 10px 70px;
+    border: 3px double white;
+}
+
+.list a {
+    color: white;
+    letter-spacing: 2px;
+}
+
+.list li:hover {
+    animation: animate 1s infinite;
+    animation-delay: 0.5s;
+    letter-spacing: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    backdrop-filter: blur(20px);
+    border: 3px solid darkgreen;
+    transition-duration: 1s;
+}
+
+.list li a:hover {
+    color: darkred;
+    font-weight: bolder;
+}
+
+.list li:active {
+    color: black;
+    background-color: white;
+    border: 3px double rgb(0, 255, 0);
+    transition-duration: 1s;
+    letter-spacing: 3px;
+}
+
+#beginning {
+    background: linear-gradient(to top left, black, rgb(46, 44, 44))
+}
+
+#sentence {
+    position: relative;
+    letter-spacing: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 12%;
+    padding-top: 16px;
+}
+
+img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1%;
+    top: 120px;
+}
+
+#clubAI {
+    position: absolute;
+    left: 85%;
+    top: 120px;
+    width: 100px;
+    height: 100px;
+}
+
+#conclave {
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    padding-left: 12%;
+    padding-top: 7%;
+    position: absolute;
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+}
+
+#sentence1 {
+    width: 96%;
+    background: linear-gradient(to right, black, rgb(23, 23, 65));
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    top: 300px;
+    padding: 2%;
+    font-weight: bold;
+}
+
+#image2 {
+    position: absolute;
+    top: 350px;
+    width: 100%;
+    height: 150%;
+    left: 0%;
+}
+
+.info {
+    color: white;
+    content: '';
+    position: relative;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#Events {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2%;
+}
+
+#E1 {
+    border: 10px groove blue;
+    border: 5px groove black;
+    content: '';
+    position: absolute;
+    top: 400px;
+    left: 4%;
+    width: 45%;
+    height: 200px;
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+    font-size: 200%;
+    font-weight: bold;
+    background: url('medium-shot-man-wearing-vr-glasses.jpg');
+    background-size: 100% 300px;
+    background-repeat: no-repeat;
+    z-index: 10;
+}
+
+#E2 {
+    border: 10px groove blue;
+    border: 5px groove black;
+    content: '';
+    position: absolute;
+    top: 400px;
+    left: 52%;
+    width: 45%;
+    color: white;
+    font-size: 200%;
+    font-weight: bold;
+    padding-top: 100px;
+    text-align: center;
+    height: 200px;
+    background: url('ai-technology-brain-background-digital-transformation-concept.jpg');
+    background-size: 100% 300px;
+    background-repeat: no-repeat;
+    z-index: 10;
+}
+
+#E3 {
+    border: 10px groove blue;
+    border: 5px groove black;
+    content: '';
+    z-index: 10;
+    position: absolute;
+    top: 730px;
+    left: 4%;
+    width: 45%;
+    height: 200px;
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+    font-size: 200%;
+    font-weight: bold;
+    background: url('pexels-markus-spiske-2061168.jpg');
+    background-size: 100% 300px;
+    background-repeat: no-repeat;
+}
+
+#E4 {
+    border: 10px groove blue;
+    border: 5px groove black;
+    content: '';
+    position: absolute;
+    top: 730px;
+    left: 52%;
+    width: 45%;
+    color: white;
+    font-size: 200%;
+    font-weight: bold;
+    padding-top: 100px;
+    text-align: center;
+    height: 200px;
+    background: url('pexels-yan-krukov-9072379.jpg');
+    background-size: 100% 300px;
+    z-index: 10;
+    background-repeat: no-repeat;
+}
+
+#bottom {
+    content: '';
+    position: absolute;
+    width: 98%;
+    left: 0%;
+    height: 20%;
+    top: 1070px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    z-index: 10;
+    padding-left: 10px;
+}
+
+#bottomgrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#N1 {
+    border: 3px solid white;
+    color: white;
+    width: 30%;
+    align-items: center;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#N2 {
+    border: 3px solid white;
+    color: white;
+    width: 30%;
+    align-items: center;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#N3 {
+    border: 3px solid white;
+    color: white;
+    width: 30%;
+    align-items: center;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@keyframes animate1 {
+    0% {
+        border: 4px solid rgb(255, 255, 255);
+        width: 30%;
+        color: white;
+    }
+    100% {
+        border: 4px double rgb(47, 91, 211);
+        width: 80%;
+        color: rgb(91, 235, 223);
+    }
+}
+
+#bottomgrid>*:hover {
+    animation: animate1 1s infinite;
+}
